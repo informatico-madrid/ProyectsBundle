@@ -1,0 +1,33 @@
+{
+    "name" : "JoaoIm/ProyectsBundle",
+    "description" : "manage git proyects",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "ProyectsBundle",
+        "email" : "joao@informatico-madrid.com"
+    }],
+    "keywords" : [
+        "Proyect bundle github"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+        "php": ">=5.5.9",
+        "gitonomy/gitlib": "dev-master"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "JoaoIm\\Bundle\\ProyectBundle" : ""
+        }
+    },
+    "minimum-stability": "dev",
+    "target-dir" : "JoaoIm/Bundle/ProyectBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "0.x-dev"
+        }
+    }
+}
