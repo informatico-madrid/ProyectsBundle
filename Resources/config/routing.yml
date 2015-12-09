@@ -1,0 +1,3 @@
+joao_im_proyects_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: JoaoImProyectsBundle:Default:index }
